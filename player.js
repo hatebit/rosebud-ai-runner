@@ -1,7 +1,7 @@
 
 
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { GLTFLoader } from 'cube-guy.js';
 
 export class Player {
   constructor(scene) {

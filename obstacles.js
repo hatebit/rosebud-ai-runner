@@ -17,7 +17,7 @@ export class ObstacleManager {
   }
 
   loadModels() {
-    this.loader.load('https://play.rosebud.ai/assets/Tank-Cw3Zvvkmom.glb?XpH8', (gltf) => {
+    this.loader.load('tank.glb', (gltf) => {
       this.tankModel = gltf.scene;
     });
   }
